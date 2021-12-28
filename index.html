@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페 바라보다</title>
+    <!-- 파비콘 -->
+    <link  href="img/pcon.jpg" type="image/x-ion" rel="shortcut icon">
+    <!-- css연결 -->
+    <link rel="stylesheet" href="css/balaboda.css"  type="text/css">
+    <!-- seiper css cdn 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- 제이쿼리연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- seiper js cdn 연결-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- js 연결 -->
+    <script src="js/balaboda.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="로고"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">바라보다</a>
+                        <ul class="sub">
+                            <li><a href="#">소개</a></li>
+                            <li><a href="#">메뉴안내</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">만나다</a>
+                        <ul class="sub">
+                            <li><a href="#">오시는길</a></li>
+                        </ul>
+                    </li>    
+                    <li><a href="#">쇼핑하다</a>
+                        <ul class="sub">
+                            <li><a href="#">스페셜티</a></li>
+                            <li><a href="#">커피팩/선물세트</a></li>
+                            <li><a href="#">커피용품</a></li>
+                            <li><a href="#">바라보다굿즈</a></li>
+                        </ul>
+                    </li>    
+                    <li><a href="#">마주보다</a>
+                        <ul class="sub">
+                            <li><a href="#">커피 메거진</a></li>
+                            <li><a href="#">질문과 답변</a></li>
+                            <li><a href="#">구매후기</a></li>
+                        </ul>    
+                    </li>
+                    <li><span>｜</span></li>
+                    <li><a href="#">정기배송</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">이벤트</a></li>
+                </ul>
+            </nav>
+            <div class="sub_bg"></div>
+            <!-- 로그인, 장바구니 , 돋보기 -->
+            <div class="header_ion">
+                <ul>
+                    <li><a href="#">
+                        <i><img src="img/icon1.png" alt="로그인"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i><img src="img/icon2.png" alt="장바구니"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i><img src="img/icon3.png" alt="돋보기"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="s1">
+            <div class="visual">
+                <div class="visual_bg">
+                    <div class="v1 first">
+                        <div class="v1_img"></div>
+                    </div>
+                    <div class="v2">
+                        <div class="v2_img"></div>
+                    </div>
+                    <div class="v3">
+                        <div class="v3_img"></div>
+                    </div>
+                    <div class="v4 last">
+                        <div class="v4_img"></div>
+                    </div>
+                </div>
+                <div class="visual_des">
+                    <div class="v1 des">
+                        <div class="des_txt">
+                            <h3>카페 둘러보기</h3>
+                            <!-- <b class="arrow"><img src="img/arrow.png" alt="화살표"></b> -->
+                            <p>사람과 기억 그리고 커피<br>모두가 추억이 되는 그곳,바라보다</p>
+                        </div>
+                    </div>
+                    <div class="v2 des">
+                        <div class="des_txt">
+                            <h3>프리미엄 원두소개</h3>
+                            <!-- <b class="arrow"><img src="img/arrow.png" alt="화살표"></b> -->
+                            <p>바라보다 커피와 함께<br>좀 더 여유로운 설레는하루를<br>바라보게 되기를</p>
+                        </div>
+                    </div>  <!-- 클래스에 띄어쓰기하면 이름이 2개임-->
+                    <div class="v3 des">
+                        <div class="des_txt">
+                            <h3>메뉴안내</h3>
+                            <!-- <b class="arrow"><img src="img/arrow.png" alt="화살표"></b> -->
+                            <p>사람과 기억<br>그리고 커피, 모두가<br>추억이 되는곳</p>
+                        </div>
+                    </div>
+                    <div class="v4 des">
+                        <div class="des_txt">
+                            <h3>스페셜티 판매</h3>
+                            <!-- <b class="arrow"><img src="img/arrow.png" alt="화살표"></b> -->
+                            <p>바라보다의 추억을 언제든 즐길 수 있게</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="center">
+                <h1>BEST MENU</h1>
+                <div class="jm"><img src="img/jm.png" alt="제목배경"></div> 
+                <h4 class="small_title">바라보다가 추천합니다</h4>
+                <div class="swiper mySwiper1 menu">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide s1">
+                            <div class="slide_des">
+                               <h2>아메리카노</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide s2">
+                            <div class="slide_des">
+                                <h2>더치라떼</h2>
+                             </div>
+                        </div>
+                        <div class="swiper-slide s3">
+                            <div class="slide_des">
+                                <h2>달고나라떼</h2>
+                             </div>
+                        </div>
+                        <div class="swiper-slide s4">
+                            <div class="slide_des">
+                                <h2>바닐라라떼</h2>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="img/arrow22.png" alt="왼쪽화살표">
+                    </div>
+                    <div class="swiper-button-prev">
+                        <img src="img/arrow2.png" alt="오른쪽화살표">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="center">
+                <h1>BEST PRODUCTS</h1>
+                <div class="jm"><img src="img/jm2.png" alt="제목배경"></div> 
+                <h4 class="small_title">바라보다가 엄선한 베스트 상품</h4>
+                <!-- 탭메뉴 -->
+                <div class="tab">
+                    <div class="tab_title">
+                        <ul>
+                            <li><a href="#" class="active">스페셜티</a></li>
+                            <li><a href="#">커피팩/선물세트</a></li>
+                            <li><a href="#">커피용품</a></li>
+                            <li><a href="#">바라보다굿즈</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab_con">
+                        <div class="s3_1">
+                            <ul>
+                                <li><a href="#">
+                                    <div class="tab_img t1">
+                                        <div class="tab_over">
+                                            <h3>#바닐라 #초코<br>#몹시달다 #깨끗하다<br><br>13,000원</h3>
+                                        </div> 
+                                    </div>    
+                                    <div class="tab_txt">
+                                        <p>과테말라 우에우에테낭고 와이칸 </p> 
+                                    </div>
+                                </a></li>
+                                <li><a href="#">
+                                    <div class="tab_img t2">
+                                        <div class="tab_over">
+                                            <h3>#플로럴 #망고<br>#쥬시 #복합성<br><br>15,000원</h3>
+                                        </div>    
+                                    </div>        
+                                    <div class="tab_txt">
+                                            <p>에디오피아 예가체프 게뎁 반코 고티티</p>   
+                                    </div>
+                                </a></li>
+                                <li><a href="#">
+                                    <div class="tab_img t3">
+                                        <div class="tab_over">    
+                                           <h3>#과일향 #견과류<br>#바닐라 #시트러스<br><br>7,000원</h3>
+                                        </div>   
+                                    </div>        
+                                    <div class="tab_txt">
+                                        <p>브라질 세하도 미네이루 파젠다 세린하</p>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="s3_2">
+                            <ul>
+                                <li><a href="#">
+                                    <div class="tab_img t4">
+                                        <div class="tab_over">
+                                            <h3>#군고구마 #오렌지<br>#견과류 #부드러운질감<br><br>13,000원</h3>
+                                        </div>    
+                                    </div>
+                                    <div class="tab_txt">
+                                            <p>인도네시아 수마트라 가요 쁘가싱 더블워시드</p>   
+                                    </div>
+                                </a></li>
+                                <li><a href="#">
+                                    <div class="tab_img t5">
+                                        <div class="tab_over">
+                                            <h3>30g x 7ea<br>(다양한 스페셜티를 한박스 안에) <br><br>16,000원</h3>
+                                        </div>    
+                                    </div>
+                                    <div class="tab_txt">
+                                        <p>스페셜티 데일리팩</p>
+                                    </div>
+                                </a></li>
+                                <li><a href="#">
+                                    <div class="tab_img t6">
+                                        <div class="tab_over">
+                                            <h3>200g x 2ea<br>(선물박스 포장) <br><br>26,000웜</h3>
+                                        </div>    
+                                    </div>
+                                    <div class="tab_txt">
+                                        <p>스페셜티 원두 선물세트</p>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="s3_3">
+                            <ul>
+                                <li><a href="#">
+                                    <div class="tab_img t7">
+                                        <div class="tab_over">
+                                            <h3>#600ml #깊은향<br><br>18,000원</h3>
+                                        </div>    
+                                    </div>
+                                    <div class="tab_txt">
+                                        <p>[폰타노] 우드 인덕션 드립포트</p>
+                                    </div>
+                                </a></li>
+                                <li><a href="#">
+                                    <div class="tab_img t8">
+                                        <div class="tab_over">
+                                            <h3>#2~4인용 #신혼부부용<br><br>12,800원</h3>
+                                        </div>    
+                                    </div>
+                                    <div class="tab_txt">
+                                        <p>[칼리타] 102LD 도자기 드리퍼(브라운)</p>
+                                    </div>
+                                </a></li>
+                                <li><a href="#">
+                                    <div class="tab_img t9">
+                                        <div class="tab_over">
+                                            <h3>#부드러운<br><br>26,9000원</h3>
+                                        </div>    
+                                    </div>
+                                    <div class="tab_txt">
+                                        <p>[폰타노] 우드 핸드밀 KH-3</p>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="s3_4">
+                            <ul>
+                                <li><a href="#">
+                                    <div class="tab_img t10">
+                                        <div class="tab_over">
+                                            <h3>#추억용 #인테리어<br><br>2,000원</h3>
+                                        </div>    
+                                    </div>
+                                    <div class="tab_txt">
+                                        <p>바라보다엽서</p>
+                                    </div>
+                                </a></li>
+                                <li><a href="#">
+                                    <div class="tab_img t11">
+                                        <div class="tab_over">
+                                            <h3>#휴대용 #깔끔한<br><br>17,000원</h3>
+                                        </div>    
+                                    </div>
+                                    <div class="tab_txt">
+                                        <p>바라보다 텀블러</p>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--tab end-->
+                <div class="view_btn">
+                    <a href="#">
+                        <p>VIEW MORE</p>
+                        <span><img src="img/arrow.png" alt="화살표"></span>
+                    </a>
+                </div>
+            </div> <!--CENTER END-->
+        </section>
+        <section class="s4">
+            <div class="center">
+
+                <div class="s4_tit">
+                    <h1>BALABODA GALLERY</h1>
+                    <div class="jm"><img src="img/jm3.png" alt="제목배경"></div> 
+                    <h4 class="small_title">바라보다를 한눈에 만나보세요</h4>
+                </div>
+                
+                <div class="s4_left">
+                    <p>커피와 당신 사이에,<br>
+                        서로를 바라볼 수 있는 공간이 있습니다.<br>
+                        커피를 향한 우리의 마음은 카페 바라보다의 <br>
+                        공간 속에서 향기로 전해집니다.</p>
+                    <div class="gallery">
+                        <div class="swiper mySwiper2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide g1">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="swiper-slide g2">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="swiper-slide g3">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="swiper-slide g4">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="swiper-slide g5">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="swiper-slide g6">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="swiper-slide g7">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="swiper-slide g8">
+                                    <a href="#"></a>
+                                </div>
+                            </div> <!--swiper-wrapper-->
+                        </div> <!--my swiper end-->
+                        <div class="swiper-button-next2">
+                            <img src="img/arrow_btn2.png" alt="왼쪽화살표">
+                        </div>
+                        <div class="swiper-button-prev2">
+                            <img src="img/arrow_btn1.png" alt="오른쪽화살표">
+                        </div>
+                    </div>
+                </div>
+                <div class="s4_right">
+                    <div class="swiper mySwiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide g1">
+                            </div>
+                            <div class="swiper-slide g2">
+                            </div>
+                            <div class="swiper-slide g3">
+                            </div>
+                            <div class="swiper-slide g4">
+                            </div>
+                            <div class="swiper-slide g5">
+                            </div>
+                            <div class="swiper-slide g6">
+                            </div>
+                            <div class="swiper-slide g7">
+                            </div>
+                            <div class="swiper-slide g8">
+                            </div>
+                        </div> <!--swiper-wrapper-->
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="s5">
+            <div class="center">
+                <div class="movie">
+                    <div class="s5_left">
+                        <h1>Baraboda Coffee Review<br>마주보다</h1>
+                        <p>우리는 커피를 사랑하는<br>사람들과 함께 성장합니다.<br>
+                        바라보다와 함께한 당신의 이야기를<br>들려주세요.</p>
+                        <div class="view_btn">
+                            <a href="#">
+                                <p>VIEW MORE</p>
+                                <span><img src="img/arrow.png" alt="화살표"></span>
+                            </a>
+                        </div>    
+                    </div>
+                    <div class="s5_right">
+                        <video controls="controls" autoplay muted loop>
+                            <source src="img/m5.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>        
+            </div>
+        </section>
+        <section class="s6">
+            <div class="center">
+                <h1>BALABODA NOTICE</h1>
+                <div class="jm"><img src="img/jm5.png" alt="제목배경"></div> 
+                <h4 class="small_title">바라보다 공지사항</h4>
+                <div class="notice">
+                    <ul>
+                        <a href="#">
+                            <li class="img1">
+                                <div class="s6_img">
+                                    <h3>MEET BARABODA</h3>
+                                    <p>카페 바라보다의 위치를 확인하세요</p>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="img2">
+                                <div class="s6_img">
+                                    <h3>MORE SPCIAL</h3>
+                                    <p>스페셜티를 더 스페셜하게맞춤 로스팅 해드립니다</p>
+                                </div>
+                            </li>
+                        </a>    
+                    </ul>
+                </div>
+            </div>    
+        </div>        
+        <footer>
+            <div class="top_footer">
+                <div class="center">
+                    <div class="user">
+                        <ul>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용안내</a></li>
+                        </ul>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#"><img src="img/icon4.png" alt="인스타아이콘"></a></li>
+                            <li><a href="#"><img src="img/icon5.png" alt="페이스북아이콘"></a></li>
+                        </ul>
+                    </div>
+                </div><!-- top footer-->
+                <div class="bottom_footer">
+                    <div class="center">
+                    <div class="addr">
+                        <address>
+                            상호명주식회사 미스터콩 대표자권영석 사업자등록번호120-87-97585 통신판매업신고번호제2018-진건퇴계원-0185호 [사업자정보확인]<br>
+                            고객센터031-575-1171 주소12139 경기도 남양주시 진건읍 진건우회로19번길 11<br>
+                            미스터콩 개인정보보호책임자박연우(help@mrkong.net)<br>
+                        </address>
+                        <p>Copyright © 2020 바라보다. All rights reserved.</p>
+                    </div>
+                    <div class="family">
+                        <div class="family_title">
+                            <a href="#">문의안내 <span></span></a>
+                        </div>
+                        <div class="family_list">
+                            <ul>
+                                <li><a href="#">css문의</a></li>
+                                <li><a href="#">정기배송문의</a></li>
+                                <li><a href="#">주문 및 결제안내</a></li>
+                                <li><a href="#">기타안내</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- top버튼 -->
+        <div class="top">TOP</div>
+    </div>
+
+    <!-- visual 아코디언 메뉴 제이쿼리 코드 -->
+    <script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+    <script>
+        //noConflict : 버전이 다른 2개의 제이쿼리를 사용하는 경우 제이쿼리의 출돌을 막기 위해서 제이쿼리를 다시 정의함 $j=jQuery
+        var $j = $.noConflict();
+        $j(document).ready(function(){
+        //pdt_fix()함수호출
+        pdt_fix();
+        //menuWidthSet()함수호춯
+        menuWidthSet();
+
+        //.visual_des의 직속자식객체 div에 마우스 오버 이벤트 설정
+        $j('.visual_des > div').hover( function (){
+            //.s1객차의 높이값을 _height변수에저장
+            var _height = $j('.s1').height();
+            // $j(this) : 마우스오버이벤트가 발생한 객체를 가리킴(.visual_des > div)
+
+            // m_width_over함수를 호출하면서 .visual_des > 객체를 매개변수에 전달
+            m_width_over( $j(this) );
+            //만약 마우스오버한 객체가 v1이거나, 또는 v4라면
+            if ( $j(this).hasClass('v1') || $j(this).hasClass('v4') )
+            {
+                //v1 또는 v4영역의 가로길이30%로 늘림
+                //clearQueue()는 큐 메모리를 청소하라는 메서드
+                $j(this).clearQueue().animate({'width':'30%'});
+            }
+            //.visual_des의 직속자식객체 div에서 마우스를 아웃시켰을때
+        }, function (){
+            //m_width_out 함수 호출하면서 .visual_des > div 객체를 매개변수에 전달
+            m_width_out( $j(this) );
+            //만약 마우스 아웃한 객체가 v1 또는 v4라면
+            if ( $j(this).hasClass('v1') || $j(this).hasClass('v4') )
+            {
+                //v1 또는 v4 영역의 가로길이를 25%로 줄임
+                $j(this).clearQueue().animate({'width':'25%'});
+            }
+        });
+
+        function pdt_fix(){
+            //.s1의 높이값 *0.166-49를 계산하여 _mgb변수에 저장
+            var _mgb = $j('.s1').height() * 0.166-49;
+            //.s1의 높이값 *0.108를 계산하여 _mgb변수에 저장
+            var _mgb2 = $j('.s1').height() * 0.108;
+            //.s1의 높이값을 _box변수에 저장
+            var _box = $j('.s1').height() ; //* 0.042            
+        }
+        //변수선언
+        var _defaultWidth;
+        var _defaultHeight;
+        var _defaultGap;
+
+        //menuWidthSet함수선언
+        function menuWidthSet(){
+            //.s1영역의 가로길이를 4로 나눈 값을 _defaultWidth변수에 저장
+            _defaultWidth = Math.round($j('.s1').width() / 4);
+            //.s1의 자식객체(.v1, .v2, .v3, .v4)끼리 겹치는 영역을 계산하여  _defaultGap변수에 저장 
+            _defaultGap = Math.round($j('.s1').width() * 0.026);
+            //s1영역의 높이값을    _defaultHeight변수에 저장
+            _defaultHeight = $j('.s1').height();
+            //첫번쨰 영역(v1)과 네번쨰 영역(v4)가 아닌 div객체들에 대하여 clip마스크를 사각형 영역으로 설정함
+            $j('.visual_bg > div').not('.first, .last').css({'clip':'rect(0px, '+ (_defaultWidth + 100) +'px, '+_defaultHeight + 'px, ' + _defaultGap + 'px)'});
+            //첫번쨰 영역(v1)에 대하여 clip마스크를 사각형 영역으로 설정함
+            $j('.visual_bg > div.first').css({'clip':'rect(0px, '+ (_defaultWidth+_defaultGap*2) +'px, '+_defaultHeight + 'px, ' +  '0px)'});
+            //네번째 영영(v4)에 대하여 clip마스크를 사각형영역으로 설정함
+            $j('.visual_bg > div.last').css({'clip':'rect(0px, '+ (_defaultWidth+_defaultGap*2) +'px, '+_defaultHeight + 'px, ' + (_defaultGap*2) +'px)'});
+            //.visual_des 영역의 제목(h3)의 왼쪽 여백값지정
+            $j('.visual_des .des_txt').clearQueue().animate({'margin-left':'3vw'});
+        }
+        // m_width_over함수선언 $thid매개변
+        function m_width_over( $this ){
+            //마우스 오버된 객체의 인덱스 번호를 _currIndx변수에저장
+            var _currIndex = $this.index();
+            //v2~v3영역끼리 겹치는 부분을 2배로 설정
+            var _gapX2 = _defaultGap*2;
+               //v2~v3영역끼리 겹치는 부분을 3배로 설정
+            var _gapX3 = _defaultGap*3;
+            //인덱스 번호가 0이라면(v1영역에 마우스 오버랬을떄)
+            if ( $this.index() == 0 )
+            {
+                $j('.visual_bg .v1').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _gapX2 ) +'px, '+_defaultHeight + 'px, 0px)'});
+                $j('.visual_bg .v2').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _defaultGap + 1 ) +'px, '+_defaultHeight + 'px, ' + (_gapX3-1) +'px)'});
+                $j('.visual_des .des_txt').clearQueue().animate({'margin-left':'3vw'});
+
+              
+            }
+            //인덱스 번호가 1이라면(v2영역에 마우스 오버랬을떄)
+            else if ( $this.index() == 1 )
+            {
+                //v1영역의 가로길이 좁아짐
+                $j('.visual_bg .v1').clearQueue().animate({'clip' : 'rect(0px, '+ _defaultWidth +'px, '+_defaultHeight + 'px, 0px)'});
+                //v2영역의 가로길이 넓어짐
+                $j('.visual_bg .v2').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _gapX2 ) +'px, '+_defaultHeight + 'px, 0px)'});
+                //v3영역의 가로길이 좁아짐
+                $j('.visual_bg > .v3').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _defaultGap ) +'px, '+_defaultHeight + 'px, ' + (_gapX2-1) +'px)'});
+
+                //.visual_des 영역의 제목(h3)의 왼쪽 여백값지정
+                $j('.visual_des .des_txt').clearQueue().animate({'margin-left':'2vw'});
+                $j('.visual_des .arrow img').attr('src','img/arrow.png'); 
+            }
+            else if ( $this.index() == 2 )
+            {
+                //v2 영역의 가로길이 좁아짐
+                $j('.visual_bg .v2').clearQueue().animate({'clip' : 'rect(0px, '+  _defaultWidth  +'px, '+_defaultHeight + 'px, 50px)'});
+                //v3영역 가로길이 넓어짐
+                $j('.visual_bg .v3').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _gapX2 + 1 ) +'px, '+_defaultHeight + 'px, 0px)'});
+                //v4영역의 가로길이 좁아짐
+                $j('.visual_bg > .v4').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _defaultGap*2 ) +'px, '+_defaultHeight + 'px, ' + (_gapX3-1) +'px)'});
+                $j('.visual_des .des_txt').clearQueue().animate({'margin-left':'2vw'});
+                $j('.visual_des .arrow img').attr('src','img/arrow.png'); 
+            }   
+            
+            else
+            {   //v3 영역의 가로길이 좁아짐
+                $j('.visual_bg .v3').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth ) +'px, '+_defaultHeight + 'px, ' + _defaultGap +'px)'});
+                //v4영역의 가로길이 넓어짐
+                $j('.visual_bg .v4').clearQueue().animate({'clip' : 'rect(0px, '+ ( _defaultWidth + _gapX2 ) +'px, '+_defaultHeight + 'px, ' + '0px)'});
+                $j('.visual_des .des_txt').clearQueue().animate({'margin-left':'2vw'});
+                $j('.visual_des .arrow img').attr('src','img/arrow.png');
+            }
+        }
+        //m_width_out 함수선언
+        function m_width_out( $this ){
+            var _currIndex = $this.index();
+            //.v2, .v3영역의 가로길이를 원래대로 설정
+            $j('.visual_bg > div').not('.first, .last').clearQueue().animate({'clip':'rect(0px, '+ (_defaultWidth + 100) +'px, '+_defaultHeight + 'px, ' + _defaultGap + 'px)'});
+            //.v1영역의 가로길이를 원래대로 설정
+            $j('.visual_bg > .first').clearQueue().animate({'clip':'rect(0px, '+ (_defaultWidth+_defaultGap*2) +'px, '+_defaultHeight + 'px, ' +  '0px)'});
+            $j('.visual_bg > .last').clearQueue().animate({'clip':'rect(0px, '+ (_defaultWidth+_defaultGap*2) +'px, '+_defaultHeight + 'px, ' +  (_defaultGap*2)  + 'px)'});
+            $j('.visual_des .arrow img').attr('src','img/arrow.png');
+            $j('.visual_des .des_txt').clearQueue().animate({'margin-left':'2vw'});
+            
+        }
+
+
+        function getStyle(elem, name) {
+            return (elem.currentStyle && elem.currentStyle[name]) || elem.style[name];
+        }
+
+        function getClip(elem) {
+            var cssClip = jQuery(elem).css('clip') || '';
+ 
+
+            if (!cssClip) {
+                // Try to get the clip rect another way for IE8.
+                // This is a workaround for jQuery's css('clip') returning undefined
+                // when the clip is defined in an external stylesheet in IE8. -JPOEHLS
+                var pieces = {
+                    top: getStyle(elem, 'clipTop'),
+                    right: getStyle(elem, 'clipRight'),
+                    bottom: getStyle(elem, 'clipBottom'),
+                    left: getStyle(elem, 'clipLeft')
+                };
+
+                if (pieces.top && pieces.right && pieces.bottom && pieces.left) {
+                    cssClip = 'rect(' + pieces.top + ' ' + pieces.right + ' ' + pieces.bottom + ' ' + pieces.left + ')';
+                }
+            }
+
+            // Strip commas and return.
+            return cssClip.replace(/,/g, ' ');
+        }
+
+        jQuery.fx.step.clip = function (fx) {
+            if (fx.pos === 0) {
+                var cRE = /rect\(([0-9\.]{1,})(px|em)[,]?\s+([0-9\.]{1,})(px|em)[,]?\s+([0-9\.]{1,})(px|em)[,]?\s+([0-9\.]{1,})(px|em)\)/;
+
+                fx.start = cRE.exec(getClip(fx.elem));
+                if (typeof fx.end === 'string') {
+                    fx.end = cRE.exec(fx.end.replace(/,/g, ' '));
+                }
+            }
+            if (fx.start && fx.end) {
+                var sarr = new Array(), earr = new Array(), spos = fx.start.length, epos = fx.end.length,
+                emOffset = fx.start[ss + 1] == 'em' ? (parseInt(j(fx.elem).css('fontSize')) * 1.333 * parseInt(fx.start[ss])) : 1;
+                for (var ss = 1; ss < spos; ss += 2) { sarr.push(parseInt(emOffset * fx.start[ss])); }
+                for (var es = 1; es < epos; es += 2) { earr.push(parseInt(emOffset * fx.end[es])); }
+                fx.elem.style.clip = 'rect(' +
+                parseInt((fx.pos * (earr[0] - sarr[0])) + sarr[0]) + 'px ' +
+                parseInt((fx.pos * (earr[1] - sarr[1])) + sarr[1]) + 'px ' +
+                parseInt((fx.pos * (earr[2] - sarr[2])) + sarr[2]) + 'px ' +
+                parseInt((fx.pos * (earr[3] - sarr[3])) + sarr[3]) + 'px)';
+            }
+        }
+    });
+
+    </script>
+</body>
+</html>
